@@ -2,6 +2,8 @@
 
 A real-time tracker application built with Node.js, Express, Socket.io, and Leaflet. This application allows users to share their geolocation in real-time and displays the locations of all connected users on a map.
 
+![Real-Time Tracker Screenshot](https://drive.google.com/uc?export=view&id=1EUKbW5_4iBLHFEVazVIvywwQaAKvZLjh)
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -59,8 +61,7 @@ A real-time tracker application built with Node.js, Express, Socket.io, and Leaf
 
 - **Geolocation**: The application uses the Geolocation API to retrieve the user's current location.
 - **Socket.io**: When a user connects, their location is sent to the server via Socket.io. The server broadcasts this location to all connected clients.
-- **Leaflet Map**: The user locations are displayed on a Leaflet map. Markers represent each user's location, and they are updated in real-time as users move or disconnect.
-- 
+- **Leaflet Map**: The user locations are displayed on a Leaflet map. Markers represent each user's location, and they are updated in real-time as users move or disconnect. 
 
 ## Program Details
 
