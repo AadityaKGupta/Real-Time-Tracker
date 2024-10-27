@@ -47,9 +47,7 @@ A real-time tracker application built with Node.js, Express, Socket.io, and Leaf
 
 1. **Start the server**:
    ```bash
-   node your-server-file.js
-   ```
-   Replace `your-server-file.js` with the name of your main server file (e.g., `app.js`).
+   node app.js
 
 2. **Open your browser** and go to [http://localhost:3000](http://localhost:3000).
 
