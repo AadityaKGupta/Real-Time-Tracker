@@ -60,24 +60,7 @@ A real-time tracker application built with Node.js, Express, Socket.io, and Leaf
 - **Geolocation**: The application uses the Geolocation API to retrieve the user's current location.
 - **Socket.io**: When a user connects, their location is sent to the server via Socket.io. The server broadcasts this location to all connected clients.
 - **Leaflet Map**: The user locations are displayed on a Leaflet map. Markers represent each user's location, and they are updated in real-time as users move or disconnect.
-
-### Example Code Snippet
-
-Here’s a simplified example of the client-side JavaScript used for geolocation:
-
-```javascript
-if (navigator.geolocation) {
-    navigator.geolocation.watchPosition(
-        (position) => {
-            const { latitude, longitude } = position.coords;
-            socket.emit("send-location", { latitude, longitude });
-        },
-        (error) => {
-            console.error("Error getting location: ", error);
-        }
-    );
-}
-```
+- 
 
 ## Program Details
 
